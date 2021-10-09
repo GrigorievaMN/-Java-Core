@@ -30,14 +30,13 @@ public class MainHomework8 {
             for( File f: files ){
                 if (f.isFile()) {
                     if(findWord (nameDir +  '\\' + f.getName(), findWord)){
-                        System.out.println(f.getName());
+                        System.out.println("В файле " + f.getName() + " присутствует слово " + findWord );
 
                     }
                 }
             }
 
         }
-
 
     }
 
